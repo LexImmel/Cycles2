@@ -56,7 +56,7 @@ public class Main {
                 System.out.println("Месяц " + monthSavingHalfYearly + " сумма накоплений составляет " + savingsHalfYearly);
             }
         }
-        //Задача 6:
+        //Задача 6: подсчёт накоплений за 9 лет под 7% ежемесячно
         System.out.println("Задача 6");
         int moneyVasiliy = 15_000;
         int yearsToSave = 0;

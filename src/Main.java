@@ -11,7 +11,6 @@ public class Main {
             total += step;
             System.out.println("Месяц " + month + " сумма накоплений равна " + total);
         }
-
         //Задача 2: Просчёт 1 ~ 10; 10 ~ 1
         System.out.println("Задача 2");
         int i = 0;

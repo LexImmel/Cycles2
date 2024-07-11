@@ -26,12 +26,13 @@ public class Main {
         //Задача 3: Посчитать изменение населения за 10 лет учитывая рождаемость и смертность
         System.out.println("Задача 3");
         int population = 12_000_000;
-        int birthRate = population / 1000 * 17;
-        int decayRate = population / 1000 * 8;
+        int popBirth = 17;
+        int popDecay = 8;
+        int popRate = population / 1000 * (popBirth-popDecay);
         int year = 0;
         while (year < 10) {
             year++;
-            population = population + birthRate - decayRate;
+            population = population + popRate;
             System.out.println("Год " + year + ", численность населения составляет " + population);
         }
         //Задача 4: Накопление по вкладу до 12 миллионов

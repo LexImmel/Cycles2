@@ -28,7 +28,7 @@ public class Main {
         int population = 12_000_000;
         int popBirth = 17;
         int popDecay = 8;
-        int popRate = population / 1000 * (popBirth-popDecay);
+        int popRate = population / 1000 * (popBirth - popDecay);
         int year = 0;
         while (year < 10) {
             year++;
